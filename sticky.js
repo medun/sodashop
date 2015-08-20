@@ -8,7 +8,7 @@ $(window).scroll(function(e){
     $('.detailtitle').css({'position': 'fixed', 'top': '0px',"padding": '1rem 0 0 2rem'});
     if($( window ).width() > 760){
     	$logo.fadeIn();
-      $('.detailtitle > h1').css({'font-size': '1.375rem', 'font-weight': 'bold'});
+      $('.detailtitle > h1').css({'font-size': '1.375rem', 'font-weight': '600'});
       $('.container').css({"padding-top": '90px'});
 	}
   }
