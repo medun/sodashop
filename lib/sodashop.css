@@ -1,0 +1,175 @@
+.page-nav a {
+	color: #333;
+}
+
+.page-nav a.selected {
+	color: #0077ee;
+	font-weight: bold;
+	border-bottom: 3px solid #0077ee;
+}
+
+#p3 .page-nav {
+/*	padding-top: .3rem;*/
+}
+
+#p3 .page-nav a.selected {
+	border-bottom: 2px solid #0077ee;
+
+}
+
+.logo {
+	color: #333;
+	padding-top: .2em;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 117px;
+  
+}
+
+/*.sidebar {
+	position: fixed;
+}*/
+
+.content {
+	margin-top: 130px;
+	
+}
+
+#content_p3, #content_p4 {
+	/*background-color: rgba(244,244,244,.7);*/
+	background-color: #f4f4f4;
+	margin-top:85px;
+	padding-top: 25px;
+}
+
+img {
+	height: 30px;
+	float: left;
+}
+
+.proto-nav {
+	position: fixed;
+	bottom: 0;
+	left: 1rem;
+	
+}
+
+.sidebar {
+	position: fixed;
+	top: 130px;
+	/*bottom: 0;
+	left: 0;*/
+}
+
+#sidebar_p3 {
+	top: 115px;
+}
+
+.not-started {
+	border-left: 5px solid orange;
+}
+
+.active {
+	border-left: 5px solid #33BF33;
+}
+
+.wrap-up {
+	border-left: 5px solid maroon;
+}
+
+.detailheader {
+/*	padding-top: 100px;*/
+}
+
+.detailtitle {
+	/*position: static;*/
+}
+
+.fill-lmblue{
+    background-color: #03ABFF;
+}
+
+.fill-lmyellow{
+    background-color: #FFD100;
+}
+
+.fill-lmblue--lighter{
+    background-color: #C6E7FF;
+}
+
+.fill-lmyellow--lighter{
+    background-color: #FFF0AB;
+}
+
+.text--darker{
+    color: rgba(0,0,0,.2);
+}
+
+.valign-middle{
+    vertical-align: middle;
+}
+
+.border-lmblue{
+  border-top:3px solid #03ABFF;
+}
+
+.border-lmyellow{
+  border-top:3px solid #FFD100;
+}
+
+.border-gray{
+  border-top:3px solid #A9A9A9;
+}
+
+.fill-custom {
+	background-color: #F8EFEF;
+}
+
+.truncate{
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.table-fixed{
+    table-layout: fixed;
+    width: 100%;
+}
+.width-20 {
+	width: 20%;
+}
+
+.width-25{
+    width: 25%;
+}
+
+.program-list > a {
+	color: inherit;
+
+}
+
+.program-list a:hover div {
+	background-color: #E1F0FF;
+}
+
+.feature-label {
+	background-color: #b2f1ea;
+	padding-top: .25em;
+	padding-bottom: .25em;
+
+}
+
+.button-giraffe {
+	background-color: rgba(238, 181, 88, 0.50);
+	border-color: rgba(238, 181, 88, 1);
+
+}
+
+.fill-gray-total {
+	background-color: #e9e9e9;
+}
