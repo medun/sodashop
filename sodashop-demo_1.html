@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <title>SodaShop - Program Listing - p1</title>
+    <link rel="stylesheet" type="text/css" href="solid.css">
+    <link rel="stylesheet" type="text/css" href="sodashop.css">
+  </head>
+  <body>
+ <div class="fixed-nav-bar">
+<div class="clearfix fill-white">
+  <div class="logo xs-my1 xs-mx3 xs-float-left">
+    <a href="#!"><img src="soda.png"><h2 class="xs-inline-block logo bold">SodaShop</h2></a>
+    
+  </div>
+  <div class="xs-my1 xs-mx4 xs-float-right">
+    <div id="account-menu" class="xs-inline-block" data-disclosure>
+      
+      <select class="xs-mx1 select select--small">
+		  <option value="help">Help</option>
+		  <option value="release notes">Release Notes</option>
+		  <option value="user guide">User Guide</option>
+		  <option value="contact support">Contact Support</option>
+	</select> 
+	<input type="text" placeholder="Search all Programs" class="text-input--small">
+    </div>
+  </div>
+  <div class="clearfix sm-hide"></div>
+  <div class="overflow-hidden px2">
+  </div>
+</div>
+<div class="clearfix fill-gray--lighter xs-border-bottom--lighter xs-border-top--lighter">
+	<div class="page-nav xs-float-left xs-mx2">
+		<a class="xs-inline-block xs-py2 xs-mx2 selected">Assigned to Me</a>
+		<a class="xs-inline-block xs-p2">All Programs</a>
+		<a class="xs-inline-block xs-p2">Starred Programs</a>
+	</div>
+
+
+</div>
+</div>
+<!-- end header -->
+<!-- really light gray -->
+<div class="content">
+<div>
+	<div class="clearfix xs-m3">
+	  <div class="sidebar col xs-col-3">
+	  	<!-- <p class="text-6 text-gray--lightest xs-px2">sidebar container</p> -->
+	  	<h4 class="bold xs-px1">Program Status</h4>
+	  	<div class="xs-py2 xs-m1 xs-mb3 xs-border-top--lighter">
+	  	
+	  		<div class="xs-pb1">
+	  			<input type="checkbox" class="checkbox" id="check_1" value="check_1" name="checkboxes">
+	  			<label for="check_1" class="">Active  <span class="text-gray--lightest text-5">1234</span></label>
+	  		</div>
+	  		<div class="xs-pb1">
+	  			<input type="checkbox" class="checkbox" id="check_1" value="check_1" name="checkboxes">
+	  			<label for="check_1" class="">Paused  <span class="text-gray--lightest text-5">1234</span></label>
+  			</div>
+  			<div class="xs-pb1">
+	  			<input type="checkbox" class="checkbox" id="check_1" value="check_1" name="checkboxes">
+	  			<label for="check_1" class="">Completed  <span class="text-gray--lightest text-5">1234</span></label>
+  			</div>
+
+
+	  	</div>
+	  	<h4 class="bold xs-px1">Quick Filters</h4>
+	  	<div class="xs-border-top--lighter xs-py2 xs-m1 xs-mb3">
+		  	<div class="xs-pb1">
+			  	<input type="radio" class="radio" id="option_1" value="option_1" name="options" checked="checked">
+				<label class="radio-label" for="option_1">Missing Username</label>
+			</div>
+			<div class="xs-pb1">
+				<input type="radio" class="radio" id="option_2" value="option_2" name="options">
+				<label class="radio-label" for="option_2">Includes Research</label>
+			</div>
+			<div class="xs-pb1">
+				<input type="radio" class="radio" id="option_2" value="option_2" name="options">
+				<label class="radio-label" for="option_2">Jumpstart Not Sent</label>  
+			</div>
+		</div>
+		<h4 class="bold xs-px1">Filter by Name</h4>
+	  	<div class="xs-border-top--lighter xs-py2 xs-m1">
+	  		<input type="text" placeholder="Enter an Employee Name" class="text-input--small xs-full-width">
+	  	</div>
+
+	<!--   	<div class="proto-nav text-6 xs-py3 xs-px1">
+	  		<span class="text-gray--lighter">Browse</span>&nbsp;
+			<!-- <a class="button button--secondary button--small" href="sodashop-demo">1</a> 
+			<a class="button button--primary button--small" href="#!">2</a>
+			<a class="button button--secondary button--small" href="sodashop-demo_3">3</a>
+			
+			<a href="">Option 2</a>
+			<a href="">Option 3</a>
+			<a href="">Option 4</a>
+		</div> -->
+
+	  </div>
+	
+	  
+	  <div class="col xs-col-8 xs-offset-4">
+	  	<!-- <p class="text-6 text-gray--lightest xs-px2">list container</p> -->
+	  	<div class="clearfix">
+	  		<div class="xs-float-right xs-px2">
+	  			<span class="bold">Sort by:</span> <a class="link-gray xs-px1">Client</a> | <a class="link-gray xs-px1">End Date</a> | <a class="xs-px1 bold">Start Date</a></div>
+	  	</div>
+	  	<div class="program-list clearfix xs-mb1">
+		  	<div class="not-started xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Bank of America (Split)</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="active xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Procter &amp; Gamble</h4>
+		  		<h3 class="bold truncate">PROCTER & GAMBLE: Tide PODS Video Series - CANCELLED</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="active xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Bank of America (Split)</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="not-started xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Procter &amp; Gamble</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="active xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Bank of America (Split)</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="wrap-up xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Procter &amp; Gamble</h4>
+		  		<h3 class="bold truncate">PROCTER & GAMBLE: Tide PODS Video Series - CANCELLED</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="active xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Bank of America (Split)</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+		  	<div class="not-started xs-border--lighter xs-p2 xs-m1">
+		  		<h4 class="text-gray--lightest">Procter &amp; Gamble</h4>
+		  		<h3 class="bold truncate">Robert Half International: Q1 2015 Native</h3>
+		  		<h4 class="xs-pt1">03/25/2015&ndash;08/15/2015</h4>
+		  	</div>
+	  	</div>
+
+	  	
+
+	  </div>
+	</div>
+</div>
+</div>
+  </body>
+</html>
